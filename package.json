@@ -1,0 +1,19 @@
+{
+    "name": "beautycounter",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "concurrently --kill-others \"npm run start-react\" \"npm run start-express\"",
+        "start-react": "cd client && npm start",
+        "start-express": "cd server && npm start"
+    },
+    "dependencies": {
+        "all": "0.0.0",
+        "babel-cli": "^6.26.0",
+        "concurrently": "^3.5.1",
+        "nodemon": "^1.17.5",
+        "npm": "^6.2.0"
+    },
+    "devDependencies": {
+        "babel-preset-es2015": "^6.24.1"
+    }
+}

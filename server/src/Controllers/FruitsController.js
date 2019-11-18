@@ -8,14 +8,12 @@ module.exports = {
             fruitDict[fruit.name.toLowerCase()] = fruit
         }
         let fruitQuery = req.params.fruit
-        console.log(fruitQuery)
         if (fruitDict[fruitQuery]) {
             return res.status(200).json({
                 data: fruitDict[fruitQuery],
                 message: `Found a ${fruitDict[fruitQuery].name}!`
             })
         } else {
-            console.log('elseee')
             return res.status(400).json({
                 error: 'Unable to find that fruit.'
             })
