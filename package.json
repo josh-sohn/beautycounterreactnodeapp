@@ -7,9 +7,10 @@
         "start-express": "cd server && npm start"
     },
     "dependencies": {
-        "all": "0.0.0",
         "babel-cli": "^6.26.0",
         "concurrently": "^3.5.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
         "nodemon": "^1.17.5",
         "npm": "^6.2.0"
     },
