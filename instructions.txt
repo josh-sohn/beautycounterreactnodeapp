@@ -1,0 +1,8 @@
+1) npm install in root
+2) cd client && npm install
+3) cd ../server && npm install
+4) cd .. && npm start
+
+
+Basically npm install in the root, client, and server folders.
+'npm start' in the root to run application.
